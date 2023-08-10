@@ -1,0 +1,2 @@
+#!/usr/bin/bash 
+git add . && git commit -m "python 0x02" && git push
