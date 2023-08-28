@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#elvin interger
+# elvin interger
 
 def safe_print_integer(value):
     try:
