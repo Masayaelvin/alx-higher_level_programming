@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-# elvin codes
+# 0-square.py
+# Brennan D Baraban <375@holbertonschool.com>
+"""Define a class Square."""
+
 
 class Square:
-    """this is an empty class defining a sqaure"""
+    """Represent a square."""
     pass

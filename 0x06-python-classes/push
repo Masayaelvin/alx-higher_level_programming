@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-git add . && git commit -m "python classes" && git commit
+git add . && git commit -m "python classse" && git push
