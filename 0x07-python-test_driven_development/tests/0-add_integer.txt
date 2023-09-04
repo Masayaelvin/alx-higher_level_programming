@@ -1,0 +1,61 @@
+===============================
+How to use ``0-add_integer.py``
+===============================
+
+This library is very simple since it has only one function
+``add_integer()`` and it returns the sum of its arguments 
+
+Numbers
+=======
+
+``add_integer()`` returns the sum of its numbers using the operator
+``+``.
+
+::
+
+	>>> add_integer = __import__('0-add_integer').add_integer
+	>>> add_integer(1, 2)
+	3
+
+	>>> add_integer(100, -2)
+	98
+
+	>>> add_integer(2)
+	100
+
+It also works for floating point values which are converted to integers before addition.
+
+::
+
+	>>> add_integer(100.3, -2)
+	98
+
+Non numbers
+==========
+The ``add_integer()`` doesn't work with non numbers it shows a TypeError.
+
+::
+	>>> add_integer(4, "School")
+	Traceback (most recent call last):
+	TypeError: b must be an integer
+
+	>>> add_integer(None)
+	Traceback (most recent call last):
+	TypeError: a must be an integer
+
+If both arguments are non-integers and non-floats, a TypeError message is only
+printed for the first argument.
+
+::
+
+    	>>> add_integer("hello", "there")
+    	Traceback (most recent call last):
+    	TypeError: a must be an integer
+
+The function will fail if infinity is provided.
+
+::
+
+    	>>> add_integer(float('inf'))
+    	Traceback (most recent call last):
+    	OverflowError: cannot convert float infinity to integer
