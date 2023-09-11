@@ -5,4 +5,5 @@ class MyList(list):
 
     def print_sorted(self):
         """sorts an unsorted list"""
-        return sorted(list)
+        print(sorted(self))
+
