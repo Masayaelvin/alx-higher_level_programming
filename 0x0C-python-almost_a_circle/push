@@ -1,0 +1,2 @@
+#!/usr/bin/python3
+git add . && git commit -m "0X0C ython almost a circle" && git push
