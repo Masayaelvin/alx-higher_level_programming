@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-git add . && git commit -m "high level programming"  && git push
+git add . && git commit -m $1  && git push
