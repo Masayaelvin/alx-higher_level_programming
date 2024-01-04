@@ -2,9 +2,9 @@
 
 const request = require('request');
 
-const Id = process.argv[2];
+const id = process.argv[2];
 
-request.get(`https://swapi-api.alx-tools.com/api/films/${Id}`, (error, response, body) => {
+request.get(`https://swapi-api.alx-tools.com/api/films/${id}`, (error, response, body) => {
   if (error) {
     console.error(error);
     process.exit(1);
